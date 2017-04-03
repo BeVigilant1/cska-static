@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url(../../dist/vendor/bootstrap-3-grid.css);
+@import url(../../dist/vendor/normalize.css);
+body {
+  background: #333;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  margin: 0; }
+
+* {
+  text-rendering: optimizeLegibility; }
+
+.spacer {
+  margin: 40px 0; }
+
+.spacerLarge {
+  margin: 80px 0; }
+
+.skewed {
+  transform-origin: left bottom;
+  transform: skewX(-3Deg); }
+
+.backdrop {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/img/cska_backdrop.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.topbar__logo {
+  background-color: #fff; }
+.topbar .logo {
+  display: block;
+  margin: 0 auto;
+  padding: 13px 0; }
+.topbar .nav-links__anchors {
+  list-style: none;
+  margin-left: 20px; }
+  .topbar .nav-links__anchors li {
+    display: inline-block;
+    font-size: .8em;
+    padding-left: 50px; }
+  .topbar .nav-links__anchors .nav-links__item {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; }
+.topbar__button {
+  max-width: 40px;
+  float: left;
+  height: 88px;
+  display: inline;
+  padding-top: 20px; }
+  .topbar__button--personal {
+    background-color: #e11837; }
+  .topbar__button--corporate {
+    background-color: #133c8b; }
+.topbar__icon {
+  width: 20px;
+  padding: 10px; }
+
+.hero {
+  text-shadow: 1px 1px 1px #919191; }
+  .hero__announcement {
+    font-size: 4em;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700; }
+    .hero__announcement--due-date {
+      font-size: .425em;
+      text-transform: none;
+      font-weight: 300; }
+      .hero__announcement--due-date:before {
+        content: 'Осталось';
+        font-size: .6em;
+        position: relative;
+        top: -32px;
+        left: 72px; }
+  .hero__team {
+    text-align: center;
+    font-style: italic; }
+    .hero__team--score {
+      font-size: 6em;
+      display: inline;
+      line-height: 1.5em;
+      font-style: normal; }
+  .hero__buy-ticket {
+    width: 100%;
+    height: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #133c8b;
+    color: #fff;
+    border: none; }
+
+.promo {
+  max-height: 350px; }
+  .promo__background {
+    height: 350px; }
+    .promo__background--tour {
+      background: url("../../assets/img/arena_slide.jpg"); }
+    .promo__background--subscription {
+      background: url("../../assets/img/subscription_background.jpg"); }
+  .promo__tour {
+    background-color: #e11837;
+    height: 350px; }
+    .promo__tour--name {
+      margin-top: 0;
+      font-size: 3em;
+      font-style: italic;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 20px; }
+    .promo__tour--date {
+      margin-top: 0;
+      font-size: 1em;
+      font-style: italic;
+      font-weight: 100;
+      padding: 25px; }
+  .promo__logo {
+    position: absolute;
+    top: 0;
+    left: 215px;
+    background-image: url("../../assets/img/logo.png");
+    height: 355px;
+    width: 280px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: cover; }
+  .promo__subscription {
+    height: 350px; }
+    .promo__subscription--name {
+      font-size: 2em;
+      font-style: italic;
+      font-weight: 700;
+      margin: 0; }
+      .promo__subscription--name--spaced {
+        padding-top: 30px; }
+    .promo__subscription--date {
+      font-size: 4em;
+      font-style: italic;
+      font-weight: 700;
+      margin: 0; }
+    .promo__subscription--button {
+      margin-top: 80px; }
+
+/*# sourceMappingURL=screen.css.map */

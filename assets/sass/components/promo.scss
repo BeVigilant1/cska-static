@@ -1,0 +1,82 @@
+.promo {
+	max-height: 350px;
+	
+
+	&__background {
+		height: 350px;	
+		
+		&--tour {
+			background: url('../../assets/img/arena_slide.jpg');
+			
+		}
+
+		&--subscription {
+			background: url('../../assets/img/subscription_background.jpg');
+
+		}
+	}
+
+	&__tour {
+		background-color: $colorRed;
+		height: 350px;	
+
+		&--name {
+			margin-top: 0;
+			font-size: 3em;
+	    	font-style: italic;
+	    	text-transform: uppercase;
+	    	font-weight: 700;
+	    	padding: 20px;
+		}
+		&--date {
+			margin-top: 0;
+			font-size: 1em;
+	    	font-style: italic;
+	    	font-weight: 100;
+	    	padding: 25px;
+		}
+		&--button {
+
+		}
+	}
+	
+	&__logo {
+			position: absolute;
+			top: 0;
+			left: 215px;
+			background-image: url('../../assets/img/logo.png');
+			height: 355px;
+			width: 280px;
+			background-repeat: no-repeat;
+			z-index: 2;
+			background-size: cover;
+		}
+
+	&__subscription {
+			height: 350px;
+
+			
+		
+
+		
+		&--name {
+			font-size: 2em;
+	    	font-style: italic;
+	    	font-weight: 700;
+	    	margin: 0;
+			
+			&--spaced {
+				padding-top: 30px;
+			}
+		}
+		&--date {
+			font-size: 4em;
+	    	font-style: italic;
+	    	font-weight: 700;
+	    	margin: 0;
+		}
+		&--button {
+			margin-top: 80px;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+body {
+	background: #333;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+    font-weight: 300;
+    color:#fff;
+    margin: 0;
+}
+
+* {
+	text-rendering: optimizeLegibility;	
+}
+
+.spacer {
+	margin: 40px 0;
+}
+
+.spacerLarge {
+	margin: 80px 0;
+}
+
+.skewed {
+	transform-origin: left bottom;
+  		transform: skewX($skewDeg); 
+}
+

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACN,UAAU,EAAE,KAAK;EAEjB,kBAAc;IACb,UAAU,EAAE,uCAAuC;IAEnD,MAAM,EAAE,KAAK",
+"sources": ["../../../assets/sass/components/promo.scss"],
+"names": [],
+"file": "promo.css"
+}
