@@ -43,7 +43,23 @@ body {
   background-size: cover;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: -1; }
+
+.topbar-mobile {
+  background-color: #e11837;
+  height: 65px; }
+  .topbar-mobile__logo {
+    background-color: #fff; }
+  .topbar-mobile .logo-mobile {
+    display: block;
+    margin: 0 auto;
+    padding: 13px 0; }
+  .topbar-mobile__burger {
+    display: block;
+    margin: 0 auto;
+    padding: 13px 0;
+    width: 40px; }
 
 .topbar__logo {
   background-color: #fff; }

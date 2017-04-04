@@ -1,3 +1,26 @@
+.topbar-mobile {
+		background-color: $colorRed;
+		height: 65px;
+	&__logo {
+		background-color: #fff;
+		
+	}
+	
+	.logo-mobile {
+			display: block;
+			margin: 0 auto;
+			padding: 13px 0;
+		}
+
+	&__burger {
+		display: block;
+		margin: 0 auto;
+		padding: 13px 0;
+		width: 40px;
+
+
+	}
+}
 
 .topbar {
 	
@@ -56,5 +79,15 @@
 		
 
 	}
+	
+	
+	
+	
+
 
 }
+
+
+
+
+

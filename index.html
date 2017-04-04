@@ -18,12 +18,23 @@
 
 <body>
 	<div class="backdrop"></div>
+	<div class="container-fluid ">
+		<div class="row hidden-lg hidden-md topbar-mobile">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1 topbar-mobile__logo skewed">			
+				<img class="logo-mobile" src="assets/img/logo.png" alt="">
+			</div>
+			<div class="col-sm-1 col-sm-offset-7  col-xs-1 col-xs-offset-7 ">
+				<img class="topbar-mobile__burger" src="assets/img/burger.svg" alt="">
+			</div>
+		</div>
+	</div>
 	<div class="container">
-		<div class="row topbar">
-			<div class="col-lg-2 col-md-2 topbar__logo skewed">			
+		<div class="row topbar hidden-sm hidden-xs">
+			<div class="col-lg-2 col-md-2 col-sm-2  topbar__logo skewed">			
 				<img class="logo" src="assets/img/logo.png" alt="">
 			</div>
-			<div class="col-lg-8  col-md-8 topbar__nav-links">
+		
+			<div class="col-lg-8 col-md-8 topbar__nav-links">
 				<ul class="nav-links__anchors">
 					<li><a class="nav-links__item" href="#">События</a></li>
 					<li><a class="nav-links__item" href="#">Билеты</a></li>
@@ -31,7 +42,7 @@
 					<li><a class="nav-links__item" href="#">Заказ еды</a></li>
 				</ul>
 			</div>
-			<div class="col-lg-2 col-md-2">
+			<div class="col-lg-2 col-md-2 ">
 				<div class="topbar__button topbar__button--corporate skewed">
 					<img class="topbar__icon" src="assets/img/corporate.svg" alt="">
 				</div>
