@@ -1,0 +1,30 @@
+.calendar {
+		background-color: $colorBlue;
+
+
+	&__day-name, &__month, &__year {
+		font-style: italic;
+		padding: 10px;
+
+	}
+	
+	&__month {
+		float: left;
+	}
+	
+	&__year {
+		display: inline;
+		float:right;
+	}
+	&__date {
+		text-align: center;
+		padding: 10px;
+		font-weight: 700;
+		&--active {
+			background-color: $colorRed;
+		}
+		&--empty {
+			min-height: 18px;
+		}
+	}
+}

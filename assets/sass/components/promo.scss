@@ -6,13 +6,17 @@
 		height: 350px;	
 		
 		&--tour {
-			background: url('../../assets/img/arena_slide.jpg');
+			background-image: url('../../assets/img/arena_slide.jpg');
 			
 		}
 
 		&--subscription {
-			background: url('../../assets/img/subscription_background.jpg');
+			background-image: url('../../assets/img/subscription_background.jpg');
 
+		}
+
+		&--food-order {
+			background-color: $colorBlue;
 		}
 	}
 
@@ -35,17 +39,15 @@
 	    	font-weight: 100;
 	    	padding: 25px;
 		}
-		&--button {
-
-		}
+		
 	}
 	
 	&__logo {
 			position: absolute;
-			top: 0;
-			left: 215px;
-			background-image: url('../../assets/img/logo.png');
-			height: 355px;
+			top: -10px;
+			left: 225px;
+			background-image: url('../../assets/img/horse.png');
+			height: 360px;
 			width: 280px;
 			background-repeat: no-repeat;
 			z-index: 2;
@@ -54,11 +56,7 @@
 
 	&__subscription {
 			height: 350px;
-
-			
-		
-
-		
+	
 		&--name {
 			font-size: 2em;
 	    	font-style: italic;
@@ -75,6 +73,32 @@
 	    	font-weight: 700;
 	    	margin: 0;
 		}
+		&--button {
+			margin-top: 80px;
+		}
+	}
+
+	&__food-order {
+		background-color: $colorRed;
+		height: 400px;	
+
+		&--name {
+			margin: 0;
+			font-size: 2.5em;
+	    	font-style: italic;
+	    	text-transform: uppercase;
+	    	font-weight: 700;
+	    	padding: 40px;
+
+		}
+		&--date {
+			margin-top: 0;
+			font-size: 1em;
+	    	font-style: italic;
+	    	font-weight: 100;
+	    	padding-left: 50px;
+		}
+		
 		&--button {
 			margin-top: 80px;
 		}

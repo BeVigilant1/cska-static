@@ -1,0 +1,50 @@
+.mobile-app {
+	color: $colorBlue;
+	
+	&__heading {
+		color:$colorRed;
+		font-weight: 700;
+		font-size: 2.5em;
+		font-style: italic;
+	}
+
+	&__text {
+		margin-top: 0;
+		font-size: .8em;
+
+	}
+	
+	&__download {
+		height: 50px;
+		width:150px;
+		margin-left: 20px;
+		
+		&--spaced {
+			margin-left: 60px;
+			
+		}
+
+	}
+
+	&__social-text {
+		font-style: italic;
+		font-weight: 700;
+		font-size: .8em;
+		margin: 40px 0 25px;
+
+	}
+	
+	&__social-icon {
+		width: 40px;
+		margin-right: 40px;
+		display: inline-block;
+	}
+	&__iphones {
+		background-image: url('../../assets/img/iphones.png');
+		height: 450px;
+    background-size: cover;
+        background-size: 390px;
+    background-position: 0px 80px;
+	background-repeat: no-repeat;
+	}
+}

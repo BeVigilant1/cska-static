@@ -1,0 +1,30 @@
+.footer {
+	background-image: url('../../assets/img/footer_stripes.gif');
+	background-repeat: repeat-y;
+	&__red {
+		background-color: $colorRed;
+		height:200px;
+	}
+	&__blue {
+		background-color: $colorBlue;
+		height:200px;
+		
+	} 
+
+	&__name {
+		margin: 0;
+		font-style: italic;
+		
+		padding: 40px 40px 0 40px;
+	}
+
+	&__links { 
+		list-style: none;
+	}
+
+	&__anchors {
+		text-decoration: none;
+		color: #fff;
+		font-size: .8em;
+	}
+}

@@ -1,0 +1,89 @@
+
+.events {
+	
+	&__year {
+		color:$colorBlue;
+
+	}
+	&__month {
+		font-weight: 500;
+		color:$colorBlue;
+
+	}
+
+	&__club-emblem {
+		max-width: 40px;
+
+		&--spaced {
+			margin-left: 10px;
+		}
+	}
+	
+	&__date {
+		margin: 0;
+		font-size: 3.2em;
+		display: inline-block;
+		line-height: 40px;
+		margin-left: 5px;
+		color:$colorRed;
+
+		&--tour {
+		margin-left: 20px;
+		color:$colorBlue;
+		
+		}
+	}
+
+	&__time {
+		display: inline;
+		margin: 0;
+		color:$colorRed;
+		font-size: 1.5em;
+		line-height: 20px;
+		
+		&--start {
+			color: $colorBlue;
+		}
+
+		&--end {
+			color: $colorBlue;
+			margin-left: 20px;
+		}
+		
+	}
+
+	&__teams, &__description {
+		display: block;
+		margin: 0;
+		font-size: .9em;
+		padding: 3px;
+		color: $colorLightGrey;
+		
+	}
+
+	&__buy-ticket {
+			width: 100%;
+		height: 35px;
+	    font-style: italic;
+	    text-transform: uppercase;
+		background-color: $colorBlue;
+		color: #fff;
+		border: none;
+	}
+	
+
+	&__preview {
+		background-image: url('../../assets/img/arena_slide.jpg');
+		height: 85px;
+	    width: 85px;
+	    border-radius: 50%;
+	    background-size: cover;
+	    background-position: -100px;
+	    background-repeat: no-repeat;
+		background-repeat: no-repeat; 
+
+	}
+	&__tour {
+		margin-top: 40px;
+	}
+}
