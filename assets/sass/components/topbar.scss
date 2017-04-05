@@ -3,13 +3,14 @@
 		height: 65px;
 	&__logo {
 		background-color: #fff;
-		
+		width: 130px;
 	}
 	
 	.logo-mobile {
 			display: block;
 			margin: 0 auto;
 			padding: 13px 0;
+
 		}
 
 	&__burger {
@@ -17,8 +18,6 @@
 		margin: 0 auto;
 		padding: 13px 0;
 		width: 40px;
-
-
 	}
 }
 
@@ -79,11 +78,6 @@
 		
 
 	}
-	
-	
-	
-	
-
 
 }
 

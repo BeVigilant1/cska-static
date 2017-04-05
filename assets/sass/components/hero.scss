@@ -1,27 +1,41 @@
 
 .hero {
 	text-shadow:$textShadow;
+	@media (max-width: $sm) {
+	
+		    }
+	@media (max-width: $xs) {
+		    
+		    }
+
 	&__announcement {
 		font-size: 4em;
 	    font-style: italic;
 	    text-transform: uppercase;
 	    font-weight: 700;
-	
-		&--due-date{
-			font-size: .425em;
+		margin: 0;
+		&--due-date {
+			font-size: .5em;
 		    text-transform: none;
+	    	font-style: italic;
 		    font-weight: 300;
-
-		    &:before {
+			margin: 0;
+			display: inline-block;
+			  &:before {
 		    	content: 'Осталось';
 				font-size: .6em;
 				position: relative;
 	    		top: -32px;
-	    		left: 72px;
+	    		left: 84px;
 				
 		    }
+		    @media (max-width: $sm) {
+		    	margin-left: -80px;
+		    }
+			}
+		  
 	}
-	}
+	
 
 	&__team {
 		text-align: center;

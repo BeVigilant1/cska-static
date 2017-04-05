@@ -7,7 +7,7 @@ Error: Undefined variable: "$colorRed".
 3: 		height: 65px;
 4: 	&__logo {
 5: 		background-color: #fff;
-6: 		
+6: 		width: 130px;
 7: 	}
 
 Backtrace:
@@ -63,4 +63,4 @@ assets/sass/components/topbar.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorRed\".\A         on line 2 of assets/sass/components/topbar.scss\A \A 1: .topbar-mobile {\A 2: 		background-color: $colorRed;\A 3: 		height: 65px;\A 4: 	&__logo {\A 5: 		background-color: #fff;\A 6: 		\A 7: 	}"; }
+  content: "Error: Undefined variable: \"$colorRed\".\A         on line 2 of assets/sass/components/topbar.scss\A \A 1: .topbar-mobile {\A 2: 		background-color: $colorRed;\A 3: 		height: 65px;\A 4: 	&__logo {\A 5: 		background-color: #fff;\A 6: 		width: 130px;\A 7: 	}"; }

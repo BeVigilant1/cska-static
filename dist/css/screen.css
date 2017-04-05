@@ -5,7 +5,8 @@ body {
   font-family: 'Open Sans', 'Helvetica', sans-serif;
   font-weight: 300;
   color: #fff;
-  margin: 0; }
+  margin: 0;
+  font-size: 100%; }
 
 * {
   text-rendering: optimizeLegibility; }
@@ -50,7 +51,8 @@ body {
   background-color: #e11837;
   height: 65px; }
   .topbar-mobile__logo {
-    background-color: #fff; }
+    background-color: #fff;
+    width: 130px; }
   .topbar-mobile .logo-mobile {
     display: block;
     margin: 0 auto;
@@ -98,17 +100,24 @@ body {
     font-size: 4em;
     font-style: italic;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700;
+    margin: 0; }
     .hero__announcement--due-date {
-      font-size: .425em;
+      font-size: .5em;
       text-transform: none;
-      font-weight: 300; }
+      font-style: italic;
+      font-weight: 300;
+      margin: 0;
+      display: inline-block; }
       .hero__announcement--due-date:before {
         content: 'Осталось';
         font-size: .6em;
         position: relative;
         top: -32px;
-        left: 72px; }
+        left: 84px; }
+      @media (max-width: 640px) {
+        .hero__announcement--due-date {
+          margin-left: -80px; } }
   .hero__team {
     text-align: center;
     font-style: italic; }
@@ -146,12 +155,24 @@ body {
       text-transform: uppercase;
       font-weight: 700;
       padding: 20px; }
+      @media (max-width: 640px) {
+        .promo__tour--name {
+          font-size: 2.5em; } }
+      @media (max-width: 320px) {
+        .promo__tour--name {
+          font-size: 2em; } }
     .promo__tour--date {
       margin-top: 0;
       font-size: 1em;
       font-style: italic;
       font-weight: 100;
       padding: 25px; }
+      @media (max-width: 640px) {
+        .promo__tour--date {
+          padding-bottom: 15px; } }
+      @media (max-width: 320px) {
+        .promo__tour--date {
+          padding-bottom: 10px; } }
   .promo__logo {
     position: absolute;
     top: -10px;
@@ -162,6 +183,12 @@ body {
     background-repeat: no-repeat;
     z-index: 2;
     background-size: cover; }
+    @media (max-width: 640px) {
+      .promo__logo {
+        left: -134px; } }
+    @media (max-width: 320px) {
+      .promo__logo {
+        left: -134px; } }
   .promo__subscription {
     height: 350px; }
     .promo__subscription--name {
@@ -169,6 +196,12 @@ body {
       font-style: italic;
       font-weight: 700;
       margin: 0; }
+      @media (max-width: 640px) {
+        .promo__subscription--name {
+          font-size: 1.5em; } }
+      @media (max-width: 320px) {
+        .promo__subscription--name {
+          font-size: 1em; } }
       .promo__subscription--name--spaced {
         padding-top: 30px; }
     .promo__subscription--date {
@@ -176,6 +209,12 @@ body {
       font-style: italic;
       font-weight: 700;
       margin: 0; }
+      @media (max-width: 640px) {
+        .promo__subscription--date {
+          font-size: 2.5em; } }
+      @media (max-width: 320px) {
+        .promo__subscription--date {
+          font-size: 2em; } }
     .promo__subscription--button {
       margin-top: 80px; }
   .promo__food-order {
@@ -286,8 +325,20 @@ body {
     height: 50px;
     width: 150px;
     margin-left: 20px; }
+    @media (max-width: 640px) {
+      .mobile-app__download {
+        margin-left: 0; } }
+    @media (max-width: 320px) {
+      .mobile-app__download {
+        margin-left: 0; } }
     .mobile-app__download--spaced {
       margin-left: 60px; }
+      @media (max-width: 640px) {
+        .mobile-app__download--spaced {
+          margin-left: 40px; } }
+      @media (max-width: 320px) {
+        .mobile-app__download--spaced {
+          margin-left: 20px; } }
   .mobile-app__social-text {
     font-style: italic;
     font-weight: 700;
@@ -308,12 +359,34 @@ body {
 .footer {
   background-image: url("../../assets/img/footer_stripes.gif");
   background-repeat: repeat-y; }
+  @media (max-width: 640px) {
+    .footer {
+      background-position: center center; } }
+  @media (max-width: 320px) {
+    .footer {
+      background-position: center center; } }
   .footer__red {
     background-color: #e11837;
     height: 200px; }
+    @media (max-width: 640px) {
+      .footer__red {
+        height: 75px;
+        background-color: #133c8b; } }
+    @media (max-width: 320px) {
+      .footer__red {
+        height: 75px;
+        background-color: #133c8b; } }
   .footer__blue {
     background-color: #133c8b;
     height: 200px; }
+    @media (max-width: 640px) {
+      .footer__blue {
+        height: 75px;
+        background-color: #e11837; } }
+    @media (max-width: 320px) {
+      .footer__blue {
+        height: 75px;
+        background-color: #e11837; } }
   .footer__name {
     margin: 0;
     font-style: italic;

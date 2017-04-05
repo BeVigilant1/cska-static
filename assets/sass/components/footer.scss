@@ -1,14 +1,46 @@
 .footer {
 	background-image: url('../../assets/img/footer_stripes.gif');
 	background-repeat: repeat-y;
+		@media (max-width: $sm) {
+		background-position: center center;
+		
+
+	    }
+	    
+		@media (max-width: $xs) {
+		background-position: center center;
+		
+	    }
+
 	&__red {
 		background-color: $colorRed;
 		height:200px;
+
+		@media (max-width: $sm) {
+		height: 75px;
+		background-color: $colorBlue;
+	    }
+	    
+		@media (max-width: $xs) {
+		height: 75px;
+		background-color: $colorBlue;
+	    }
 	}
 	&__blue {
 		background-color: $colorBlue;
 		height:200px;
+
+		@media (max-width: $sm) {
+		height: 75px;
+		background-color: $colorRed;
 		
+	    }
+	    
+		@media (max-width: $xs) {
+		height: 75px;
+		background-color: $colorRed;
+		
+	    }
 	} 
 
 	&__name {

@@ -5,11 +5,11 @@ Error: Undefined variable: "$textShadow".
 1: 
 2: .hero {
 3: 	text-shadow:$textShadow;
-4: 	&__announcement {
-5: 		font-size: 4em;
-6: 	    font-style: italic;
-7: 	    text-transform: uppercase;
-8: 	    font-weight: 700;
+4: 	@media (max-width: $sm) {
+5: 	
+6: 		    }
+7: 	@media (max-width: $xs) {
+8: 		    
 
 Backtrace:
 assets/sass/components/hero.scss:3
@@ -64,4 +64,4 @@ assets/sass/components/hero.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$textShadow\".\A         on line 3 of assets/sass/components/hero.scss\A \A 1: \A 2: .hero {\A 3: 	text-shadow:$textShadow;\A 4: 	&__announcement {\A 5: 		font-size: 4em;\A 6: 	    font-style: italic;\A 7: 	    text-transform: uppercase;\A 8: 	    font-weight: 700;"; }
+  content: "Error: Undefined variable: \"$textShadow\".\A         on line 3 of assets/sass/components/hero.scss\A \A 1: \A 2: .hero {\A 3: 	text-shadow:$textShadow;\A 4: 	@media (max-width: $sm) {\A 5: 	\A 6: 		    }\A 7: 	@media (max-width: $xs) {\A 8: 		    "; }

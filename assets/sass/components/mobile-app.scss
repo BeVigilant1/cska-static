@@ -19,9 +19,28 @@
 		width:150px;
 		margin-left: 20px;
 		
+		@media (max-width: $sm) {
+			margin-left: 0;
+
+	    }
+	    
+		@media (max-width: $xs) {
+			margin-left: 0;
+	    
+	    }
+
 		&--spaced {
 			margin-left: 60px;
 			
+			@media (max-width: $sm) {
+			margin-left: 40px;
+	
+		    }
+
+			@media (max-width: $xs) {
+			margin-left: 20px;
+		    
+		    }
 		}
 
 	}
